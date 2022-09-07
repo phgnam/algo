@@ -1,4 +1,4 @@
-function abb(arr: number[], total: number): number[][] {
+export function threeNumberSum(arr: number[], total: number): number[][] {
   arr.sort((a, b) => a - b);
   const result: number[][] = [];
   for (let i = 0; i < arr.length - 3; i++) {
