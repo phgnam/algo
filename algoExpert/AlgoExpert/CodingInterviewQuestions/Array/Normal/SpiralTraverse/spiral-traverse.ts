@@ -3,11 +3,10 @@ export function spiralTraverse(matrix: number[][]): number[] {
   const result: number[] = []
 
   function helper(top: number, left: number, bottom: number, right: number): void {
-    if (top > bottom) return;
+    if (top > bottom || left > right) return;
 
     // top
     result.push(...(matrix[top].slice(left, right + 1)));
-
     if (top === bottom) {
       return;
     };
@@ -23,6 +22,6 @@ export function spiralTraverse(matrix: number[][]): number[] {
     }
     return helper(top + 1, left + 1, bottom - 1, right - 1);
   }
-  helper(0, 0, matrix.length - 1, matrix[0].length);
+  helper(0, 0, matrix.length - 1, matrix[0].length - 1);
   return result;
 };

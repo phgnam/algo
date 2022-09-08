@@ -2,8 +2,8 @@ import { Benchmark } from "../../../../../../utils/benchmark";
 import { randomMatrixInt } from "../../../../../../utils/random-matrix-int";
 import * as solution from "./spiral-traverse";
 
-const n = 100;
-const m = 100;
+const n = 3;
+const m = 3;
 const matrix = randomMatrixInt(n, m);
 const benchmarks: Benchmark[] = [];
 
@@ -20,4 +20,4 @@ runSolution('solution', solution);
 console.log('Matrix:');
 console.table(matrix);
 console.log('Result:');
-console.table(benchmarks);
+console.log(benchmarks);
