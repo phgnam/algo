@@ -1,17 +1,19 @@
 //  O(N) time | O(1) space
 export function arrayOfProducts(nums: number[]): number[] {
-  function products(arr: number[]) {
-    if (arr.length === 0) return 1;
-    let result = 1;
-    for (const value of arr) {
-      result *= value
+  let haveZero = 0;
+  let products = 1;
+  for (let num of nums) {
+    if (num !== 0) {
+      products *= num;
+    } else {
+      haveZero += 1;
     }
-    return result;
   }
 
-  const prod:number[] = [];
-  for (let i = 0; i < nums.length; i++) {
-    prod.push(products(nums.slice(0, i)) * products(nums.slice(i+1, nums.length)))
+  const prod: number[] = [];
+  for (const num of nums) {
+    const result = haveZero && num !== 0 ? 0 : ((num === 0) ? ((haveZero > 1) ? 0 : products) : products / num);
+    prod.push(result);
   }
   return prod;
 };
