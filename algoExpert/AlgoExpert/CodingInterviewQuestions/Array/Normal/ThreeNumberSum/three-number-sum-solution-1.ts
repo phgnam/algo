@@ -4,6 +4,7 @@ export function threeNumberSum(array: number[], targetSum: number): number[][] {
 
   let solutions: number[][] = [];
 
+  // helper function using recursive to access all index
   const helper = (arr: number[], index: number) => {
 
     if (arr.length === 3 && arr.reduce((a, b) => a + b) === targetSum) {
