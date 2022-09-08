@@ -13,6 +13,7 @@ export function longestPeak(arr: number[]): number {
         }
         start = false;
         dec = false;
+        cur = 0;
       }
       if (!start) {
         start = true;
@@ -34,6 +35,7 @@ export function longestPeak(arr: number[]): number {
       }
       start = false;
       dec = false;
+      cur = 0
     }
   }
   return longest;

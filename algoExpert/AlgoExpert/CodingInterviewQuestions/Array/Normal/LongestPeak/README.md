@@ -31,4 +31,4 @@ Explanation: There is no mountain.
 
 **Follow up:**
 - Can you solve it using only one pass?
-- Can you solve it in O(1) space?
+- Can you solve it in `O(1)` space?
