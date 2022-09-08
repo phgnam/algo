@@ -1,5 +1,5 @@
 
-//  O(n^2) time | O(n) space
+//  O(N · log(N) + M · log(M)) time | O(log(N) + log(M)) or O(N + M) space - depending on the implementation of the sorting algorithm
 export function smallestDifference(firstArray: number[], secondArray: number[]): number[] {
   firstArray.sort((a,b) => a-b);
   secondArray.sort((a,b) => a-b);
