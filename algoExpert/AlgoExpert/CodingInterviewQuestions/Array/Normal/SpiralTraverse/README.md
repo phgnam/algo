@@ -4,6 +4,8 @@ Source: https://leetcode.com/problems/spiral-matrix/
 
 Given an `m x n` `matrix`, return all elements of the `matrix` in spiral order.
 
+
+Example 1
 ```
 1 > 2 > 3
         v
@@ -20,6 +22,8 @@ Sample output:
 [1,2,3,6,9,8,7,4,5]
 ```
 
+
+Example 2
 ```
 1 > 2  > 3  > 4
               v
