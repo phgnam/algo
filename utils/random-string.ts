@@ -23,6 +23,9 @@ export function randomString(length: number, option: Option = defaultOption): st
   if (option.number) {
     characters += '0123456789'
   }
+  if (option.symbols) {
+    characters += '~!@#$%^&*()_+`-={}|[]\\:";\'<>?,./ '
+  }
   var charactersLength = characters.length;
   for (var i = 0; i < length; i++) {
     result += characters.charAt(Math.floor(Math.random() *
