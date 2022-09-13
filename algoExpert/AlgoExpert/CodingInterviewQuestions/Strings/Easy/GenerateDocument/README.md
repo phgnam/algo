@@ -1,6 +1,7 @@
 # Generate Document
 
 https://www.algoexpert.io/questions/Generate%20Document
+https://leetcode.com/problems/ransom-note/
 
 You're given a string of available characters and a string representing a document that you need to generate. Write a function that determines if you can generate the document using the available characters. If you can generate the document, your function should return `true`; otherwise, it should return `false`.
 
