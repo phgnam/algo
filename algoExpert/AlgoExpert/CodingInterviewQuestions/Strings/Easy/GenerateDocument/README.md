@@ -2,11 +2,11 @@
 
 https://leetcode.com/problems/making-file-names-unique/
 
-Given an array of strings `names` of size `n`. You will create n folders in your file system **such that**, at the `i<sup>th</sup>` minute, you will create a folder with the name `names[i]`.
+Given an array of strings `names` of size `n`. You will create n folders in your file system **such that**, at the `$i^th$` minute, you will create a folder with the name `names[i]`.
 
 Since two files **cannot** have the same name, if you enter a folder name that was previously used, the system will have a suffix addition to its name in the form of `(k)`, where, `k` is the **smallest positive integer** such that the obtained name remains unique.
 
-Return *an array of strings of length* `n` where `ans[i]` is the actual name the system will assign to the `i<sup>th</sup>` folder when you create it.
+Return *an array of strings of length* `n` where `ans[i]` is the actual name the system will assign to the `$i^th$` folder when you create it.
 
  
 
@@ -42,6 +42,6 @@ Explanation: When the last folder is created, the smallest positive valid k is 4
 ```
 
 **Constraints:**
-- `1 <= names.length <= 5 * 10<sup>4</sup>`
+- `1 <= names.length <= 5 * $10^4$`
 - `1 <= names[i].length <= 20`
 - `names[i]` consists of lowercase English letters, digits, and/or round brackets.
