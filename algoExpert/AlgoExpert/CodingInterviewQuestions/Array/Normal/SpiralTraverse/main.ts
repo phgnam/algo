@@ -1,4 +1,4 @@
-import { Benchmark } from "../../../../../../utils/benchmark";
+import { Benchmark } from "../../../../../../utils/class/Benchmark";
 import { randomMatrixInt } from "../../../../../../utils/random-matrix-int";
 import * as solution from "./spiral-traverse";
 

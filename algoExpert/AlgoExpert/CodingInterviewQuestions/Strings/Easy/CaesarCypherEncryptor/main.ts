@@ -1,4 +1,4 @@
-import { Benchmark } from "../../../../../../utils/benchmark";
+import { Benchmark } from "../../../../../../utils/class/Benchmark";
 import { randomString } from "../../../../../../utils/random-string";
 import { randomIntFromInterval } from "../../../../../../utils/random-int-form-interval";
 import * as solution from "./caesar-cypher-encryptor";

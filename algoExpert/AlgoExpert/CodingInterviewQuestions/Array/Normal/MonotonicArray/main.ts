@@ -1,4 +1,4 @@
-import { Benchmark } from "../../../../../../utils/benchmark";
+import { Benchmark } from "../../../../../../utils/class/Benchmark";
 import { randomArrayIntFromInterval } from "../../../../../../utils/random-array-int-from-interval";
 import * as solution from "./monotonic-array";
 

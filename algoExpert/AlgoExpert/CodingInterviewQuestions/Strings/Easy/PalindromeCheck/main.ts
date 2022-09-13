@@ -1,4 +1,4 @@
-import { Benchmark } from "../../../../../../utils/benchmark";
+import { Benchmark } from "../../../../../../utils/class/Benchmark";
 import { randomString } from "../../../../../../utils/random-string";
 import * as solution from "./palindrome-check";
 import * as solution1 from "./palindrome-check-solution-1";

@@ -1,4 +1,4 @@
-import { Benchmark } from "../../../../../../utils/benchmark";
+import { Benchmark } from "../../../../../../utils/class/Benchmark";
 import { randomString } from "../../../../../../utils/random-string";
 import * as solution from "./generate-document";
 import * as solution1 from "./generate-document-solution-1";
