@@ -11,8 +11,22 @@
  *     }
  * }
  */
-import { TreeNode } from '../../TreeNode'
 
-function closestValue(root: TreeNode | null, target: number): number {
-  return target;
+import { TreeNode } from "../../../../../../utils/class/TreeNode";
+
+export function closestValue(root: TreeNode | null, target: number): number {
+  const arr: number[] = [];
+  let min = Infinity;
+  let result = Infinity;
+  function getValueNode(node: TreeNode | null) {
+    if (!node) return;
+    if (Math.abs(target - node.val) < min) {
+      min = Math.abs(target - node.val);
+      result = node.val;
+    }
+    getValueNode(node.left);
+    getValueNode(node.right);
+  }
+  getValueNode(root);
+  return result;
 };
