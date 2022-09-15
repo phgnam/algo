@@ -1,28 +1,19 @@
 import { Benchmark } from "../../../../../../utils/class/Benchmark";
-import { randomString } from "../../../../../../utils/random-string";
+import { randomIntFromInterval } from "../../../../../../utils/random-int-form-interval";
+import { randomSelfBalancingBinarySearchTree } from "../../../../../../utils/random-self-balancing-binary-search-tree";
 import * as solution from "./find-closest-value-in-bst";
 
-const length = Math.pow(2, 8) - 1;
-let characters = randomString(length, {
-  lowerCase: true,
-});
-const character = randomString(1, {
-  lowerCase: true,
-});
-const re = new RegExp(character, "g");
-characters = characters.replace(re, "");
-const newStr = characters.split('')
-newStr.push(character)
-characters = newStr.join('');
-
+const depth = 17;
+const binarySearchTree = randomSelfBalancingBinarySearchTree(depth);
+const target = randomIntFromInterval(0, Math.pow(2, depth + 1));
 const benchmarks: Benchmark[] = [];
-
+binarySearchTree.printInorder();
 function runSolution(name: string, sol: any) {
   const start = Date.now();
-  const result = sol.firstUniqChar(characters);
+  const result = sol.closestValue(binarySearchTree.getRootNode(), target);
   const end = Date.now();
   const timeSpend = end - start;
-  benchmarks.push(new Benchmark(name, timeSpend, length, result));
+  benchmarks.push(new Benchmark(name, timeSpend, target, result));
 }
 
 runSolution('solution', solution);
