@@ -5,7 +5,6 @@ export function randomSelfBalancingBinarySearchTree(depth: number): BinarySearch
   const numberNode = Math.pow(2, depth) - 1;
   const array = new Array((numberNode + 1) * 2).fill(0).map((_, idx) => idx += 1);
 
-  console.log(numberNode, array.length);
   const binarySearchTree: BinarySearchTree = new BinarySearchTree();
   for (let i = 0; i < numberNode; i ++) {
     const idx = randomIntFromInterval(0, array.length - 1);

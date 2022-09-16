@@ -2,6 +2,8 @@ import { Benchmark } from "../../../../../../utils/class/Benchmark";
 import { randomIntFromInterval } from "../../../../../../utils/random-int-form-interval";
 import { randomSelfBalancingBinarySearchTree } from "../../../../../../utils/random-self-balancing-binary-search-tree";
 import * as solution from "./find-closest-value-in-bst";
+import * as solution1 from "./find-closest-value-in-bst-solution-1";
+import * as solution2 from "./find-closest-value-in-bst-solution-2";
 
 const depth = 17;
 const binarySearchTree = randomSelfBalancingBinarySearchTree(depth);
@@ -17,5 +19,7 @@ function runSolution(name: string, sol: any) {
 }
 
 runSolution('solution', solution);
+runSolution('solution1', solution1);
+runSolution('solution2', solution2);
 
 console.table(benchmarks);
