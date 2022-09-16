@@ -1,17 +1,59 @@
 # First Duplicate Value
 
-https://www.geeksforgeeks.org/find-first-repeating-element-array-integers/
+https://www.algoexpert.io/questions/first-duplicate-value
 
-Given an array of integers, find the first repeating element in it. We need to find the element that occurs more than once and whose index of first occurrence is smallest. 
+Given an array of integers between 1 and n, inclusive, where n is the length of the array, write a function that returns the first integer that appears more than once (when the array is read from left to right).
 
-**Example 1:**
+In other words, out of all the integers that might occur more than once in the input array, your function should return the one whose first duplicate value has the minimum index.
+
+If no integer appears more than once, your function should return -1
+
+Note that you're allowed to mutate in input array.
+
+Sample Input #1
+```typescript
+array = [2, 1, 5, 2, 3, 3, 4]
 ```
-Input:  arr = [10, 5, 3, 4, 3, 5, 6]
-Output: 5 // [5 is the first element that repeats]
+Sample Output #1
+```typescript
+2 // 2 is the first integer that appears more than once.
+// 3 also appears more than once, but the second 3 appears after the second 2.
 ```
 
-**Example 2:**
+
+Sample Input #1
+```typescript
+array = [2, 1, 5, 3, 3, 2, 4]
 ```
-Input:  arr = [6, 10, 5, 4, 9, 120, 4, 6, 10]
-Output: 6 // [6 is the first element that repeats]
+Sample Output #1
+```typescript
+3 // 3 is the first integer that appears more than once.
+// 2 also appears more than once, but the second 2 appears after the second 3.
 ```
+
+<details>
+<summary>Hint 1</summary>
+The brute-force solution can be done in o(n^2) time. Think about how you can determine if value appears twice in an array.
+</details>
+
+<details>
+<summary>Hint 2</summary>
+You can use a data structure that has constant-time lookups to keep track of integers that you've seen already. This leads the way to a linear-time solution.
+</details>
+
+<details>
+<summary>Hint 3</summary>
+You should always pay close attention to the details of a question's prompt. In this question, the integers in the array are between 1 and n, inclusive, where n is the length of the input array. The prompt also explicitly allows us to mutate the array. How can these details help us find a better solution, either time-complexity-wise or space-complexity-wise?
+</details>
+
+<details>
+<summary>Hint 4</summary>
+Since the integers are between 1 and the length ò the input aray, you can map them to indices in the aray itself by subtracting 1 from them. Once you
+ve mapped an integer to an index in the aray, you can mutate the value in the aray at that index and make it negative (by multiplying it by -1). Since the integers normally aren't negative, the first time that you encounter a negative value at the index that an integer maps to, you'll know that you'll have already seen that integer.
+</details>
+
+
+<details>
+<summary>Optimal Space & TIme Complexity</summary>
+O(n) time | O(1) space - where n is the length of the input array
+</details>

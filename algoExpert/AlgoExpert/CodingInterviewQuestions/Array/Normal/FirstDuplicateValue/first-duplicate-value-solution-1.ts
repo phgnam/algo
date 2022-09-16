@@ -1,29 +1,11 @@
-//  O(N · log(N)) time | O(N) space
-export function firstDuplicateValue(array: number[]): number {
-  // Initialize index of first
-  // repeating element
-  let min = -1;
+// Copyright (c) 2022 AlgoExpert LLC. All rights reserved.
 
-  // Creates an empty hashset
-  let set = new Set();
-
-  // Traverse the input array from right to left
-  for(let i = array.length - 1; i >= 0; i--)
-  {
-       
-      // If element is already in
-      // hash set, update min
-      if (set.has(array[i]))
-          min = i;
-           
-      // Else add element to hash set
-      else 
-          set.add(array[i]);
+// O(n) time | O(n) space - where n is the length of the input array
+export function firstDuplicateValue(array: number[]) {
+  const seen = new Set();
+  for (const value of array) {
+    if (seen.has(value)) return value;
+    seen.add(value);
   }
-
-  // Print the result
-  if (min != -1)
-    return array[min];
-  else
-    return Infinity;
+  return -1;
 }
