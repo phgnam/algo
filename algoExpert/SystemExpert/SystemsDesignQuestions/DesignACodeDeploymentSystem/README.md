@@ -13,15 +13,14 @@ Design a global and fast code-deployment system
 <details>
 <summary>Question 1</summary>
 <b>Q: What exactly do we mean by a code-deployment system? Are we talking about building, testing, and shipping code?</b>
-
-
+<br/>
 A: We want to design a system that takes code, builds it into a binary (an opaque blob of data - the complied code), and deploys the result globally in an efficient and scalable way. We dont't need to worry about testing code; let's assume that's already covered.
 </details>
 
 <details>
 <summary>Question 2</summary>
 **Q: What part of the software-development liftcycle, so to speak, are we designing this for? Is this process of buiding and deploying code happening when code is being submitted for code review, when code is being merged into a codebase, or when code is being shipped?**
-
+ 
 A: Once code is merged into the trunk or master branch of a central code repository, engineers should be able t o trigger a build and deploy that build(through a UI, which we're not designing). At that point, the code has already been reviewd and is ready to ship. So to clarify, we're not designing the system that handles code being submitted for review or being merged into a master branch - just the system that takes merged code, builds it, and deploys it.
 </details>
 
