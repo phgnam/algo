@@ -12,7 +12,8 @@ Design a global and fast code-deployment system
 
 <details>
 <summary>Question 1</summary>
-**Q: What exactly do we mean by a code-deployment system? Are we talking about building, testing, and shipping code?**
+<b>Q: What exactly do we mean by a code-deployment system? Are we talking about building, testing, and shipping code?</b>
+
 
 A: We want to design a system that takes code, builds it into a binary (an opaque blob of data - the complied code), and deploys the result globally in an efficient and scalable way. We dont't need to worry about testing code; let's assume that's already covered.
 </details>
