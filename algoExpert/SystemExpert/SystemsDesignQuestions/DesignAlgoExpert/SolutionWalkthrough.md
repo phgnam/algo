@@ -136,4 +136,5 @@ Lastly, we can have some logging and monitoring in our system, especially for ru
 
 <details>
 <summary><b>12. System Diagram</b></summary>
+![image](https://user-images.githubusercontent.com/53181849/192137895-f9755026-3087-4344-8f99-0535238c2949.png)
 </details>
