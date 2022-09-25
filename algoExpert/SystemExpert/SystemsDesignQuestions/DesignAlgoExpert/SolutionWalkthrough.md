@@ -136,4 +136,5 @@ Lastly, we can have some logging and monitoring in our system, especially for ru
 
 <details>
 <summary><b>12. System Diagram</b></summary>
+<img src="https://assets.algoexpert.io/course-assets/systemsexpert/algoexpert-system-diagram.svg">
 </details>
