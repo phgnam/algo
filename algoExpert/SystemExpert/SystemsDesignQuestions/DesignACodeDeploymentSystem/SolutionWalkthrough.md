@@ -1,4 +1,4 @@
-Solution Walkthrough
+# Solution Walkthrough
 
 Our solution walkthroughs are meant to supplement our video solutions. We recomment starting with the video solution and using the walkthrough either as a point of referance while you catch the video or as a review tool if you need to brush up on this question's solution later on.
 
