@@ -154,5 +154,6 @@ Machines in the clusters/regions will be polling the relevant regional K-V store
 
 
 <details>
-<summary><b></b></summary>
+<summary><b>14. System Diagram</b></summary>
+<img src="https://assets.algoexpert.io/course-assets/systemsexpert/code-deployment-system-diagram.svg">
 </details>
