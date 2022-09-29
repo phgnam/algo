@@ -80,6 +80,7 @@ This table will store all of the orders that Amazon warehouses get, with each ro
 | **warehouseOrderId: _uuid_** | **parentOrderId: _uuid_** | **warehouseId: _uuid_** | **orderStatus: _enum_** | **items: _[]{itemId, quantity}_** | **shippingAddress: _string_** |
 |------------------------------|---------------------------|-------------------------|-------------------------|-----------------------------------|-------------------------------|
 | ...                          | ...                       | ...                     | ...                     | ...                               | ...                           |
+
 **Warehouse Stock**
 
 This table will store all of the item stocks in Amazon warehouses, with each row representing an {item, warehouse} pairing. The physicalStock field represents an item's actual physical stock in the warehouse in question, serving as a source of truth, while the availableStock field represents an item's effective available stock in the relevant warehouse; this stock gets decreased when orders are assigned to warehouses. See the Core Warehouse Functionality section for more details.
