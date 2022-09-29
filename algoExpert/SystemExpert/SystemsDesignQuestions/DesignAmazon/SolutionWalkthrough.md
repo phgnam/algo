@@ -39,7 +39,54 @@ We'll go with a SQL database because all of the data that we'll be dealing with 
 
 
 ### 4. SQL Tables
+We'll have six SQL tables to support our entire system's storage needs.
 
+**Items**
+
+This table will store all of the items on Amazon, with each row representing an item.
+
+| **itemId: _uuid_** | **name: _string_** | **description: _string_** | **price: _integer_** | **currency: _enum_** | **other...** |
+|--------------------|--------------------|---------------------------|----------------------|----------------------|--------------|
+| ...                | ...                | ...                       | ...                  | ...                  | ...          |
+
+**Carts**
+
+This table will store all of the carts on Amazon, with each row representing a cart. We've been told that each user can only have a single cart at once.
+
+| **cartId: _uuid_** | **customerId: _uuid_** | **items: _[]{itemId, quantity}_** |
+|--------------------|------------------------|-----------------------------------|
+| ...                | ...                    | ...                               |
+
+**Orders**
+
+This table will store all of the orders on Amazon, with each row representing an order.
+
+| **orderId: _uuid_** | **customerId: _uuid_** | **orderStatus: _enum_** | **items: _[]{itemId, quantity}_** | **price: _integer_** | **paymentInfo: _PaymentInfo_** | **shippingAddress: _string_** | **timestamp: _datetime_** | other... |
+|---------------------|------------------------|-------------------------|-----------------------------------|----------------------|--------------------------------|-------------------------------|---------------------------|----------|
+| ...                 | ...                    | ...                     | ...                               | ...                  | ...                            |                               |                           |          |
+
+**Aggregated Stock**
+
+This table will store all of the item stocks on Amazon that are relevant to users, with each row representing an item. See the Core User Functionality section for more details.
+
+| **itemId: _uuid_** | **stock: _integer_** | 
+|--------------------|----------------------|
+| ...                | ...                  | 
+
+**Warehouse Orders**
+
+This table will store all of the orders that Amazon warehouses get, with each row representing a warehouse order. Warehouse orders are either entire normal Amazon orders or subsets of normal Amazon orders.
+
+| **warehouseOrderId: _uuid_** | **parentOrderId: _uuid_** | **warehouseId: _uuid_** | **orderStatus: _enum_** | **items: _[]{itemId, quantity}_** | **shippingAddress: _string_** |
+|------------------------------|---------------------------|-------------------------|-------------------------|-----------------------------------|-------------------------------|
+| ...                          | ...                       | ...                     | ...                     | ...                               | ...                           |
+**Warehouse Stock**
+
+This table will store all of the item stocks in Amazon warehouses, with each row representing an {item, warehouse} pairing. The physicalStock field represents an item's actual physical stock in the warehouse in question, serving as a source of truth, while the availableStock field represents an item's effective available stock in the relevant warehouse; this stock gets decreased when orders are assigned to warehouses. See the Core Warehouse Functionality section for more details.
+
+| **itemId: _uuid_** | **warehouseId: _uuid_** | **physicalStock: _integer_** | **availableStock: _integer_** |
+|--------------------|-------------------------|------------------------------|-------------------------------|
+| ...                | ...                     | ...                          | ...                           |
 
 ### 5. Core User Functionality
 **GetItemCatalog(search)**
