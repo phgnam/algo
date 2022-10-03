@@ -1,0 +1,48 @@
+# Design The Reddit API
+
+https://www.algoexpert.io/systems/workspace/design-the-reddit-api
+
+Design an API for Reddit subreddits given the following information.
+
+The API includes these 2 entities:
+
+- **User** | *userId: string*, ...
+- **SubReddit** | *subredditId: string*, ...
+
+Both of these entities likely have other fields, but for the purpose of this question, those other fields aren't needed.
+
+Your API should support the basic functionality of a subreddit on Reddit.
+
+Design a stockbroker: a platform that acts as the intermediary between end-customers and some central stock exchange.
+
+*Many systems design questions are intentionally left very vaugue and are literally given in the form of `Design Foobar`. It's your job to ask clarifying questions to better unerstand the system that you have to build.*
+
+*We've laid out some of these questions below; their answers should give you some guidance on the problem. Before looking at them, we encourage you to take few minutes to think about what questions you'd ask in a real interview.*
+
+## Clarifying Questions To Ask
+
+
+### Question 1
+**Q: To make sure that we're on the same page: a subreddit is an online community where users can write posts, comment on posts, upvote / downvote posts, share posts, report posts, become moderators, etc..--is this correct, and are we designing all of this functionality?**
+
+A: Yes, that's correct, but let's keep things simple and focus only on writing posts, writing comments, and upvoting / downvoting. You can forget about all of the auxiliary features like sharing, reporting, moderating, etc..
+
+### Question 2
+**Q: So we're really focusing on the very narrow but core aspect of a subreddit: writing posts, commenting on them, and voting on them.**
+
+A: Yes.
+
+### Question 3
+**Q: I'm thinking of defining the schemas for the main entities that live within a subreddit and then defining their CRUD operations -- methods like Create/Get/Edit/Delete/List<Entity> -- is this in line with what you're asking me to do?**
+
+A: Yes, and make sure to include method signatures -- what each method takes in and what each method returns. Also include the types of each argument.
+
+### Question 4
+**Q: The entities that I've identified are Posts, Comments, and Votes (upvotes and downvotes). Does this seem accurate?**
+
+A: Yes. These are the 3 core entities that you should be defining and whose APIs you're designing.
+
+### Question 5
+**Q: Is there any other functionality of a subreddit that we should design?**
+
+A: Yes, you should also allow people to award posts. Awards are a special currency that can be bought for real money and gifted to comments and posts. Users can buy some quantity of awards in exchange for real money, and they can give awards to posts and comments (one award per post / comment).
