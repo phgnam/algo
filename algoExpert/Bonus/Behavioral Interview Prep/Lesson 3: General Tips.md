@@ -7,7 +7,8 @@
 *So sit back, listen closely, and become a BehavioralExpert!*
 
 
-Hey, everybody. Welcome to AlgoExpert.
+Hey, everybody.
+Welcome to AlgoExpert.
 In this video, we're gonna go over some general tips on how you can do very well in your behavioral interviews.
 Now, as I mentioned in the previous video that we have here in the behavioral interviews content on AlgoExpert, there is no right or wrong answer to most behavioral interview questions.
 In other words, if you're asked something like tell me about a challenging project, or tell me about a time that you handled conflict in the workplace, there is no objectively wrong or right way to answer those questions.
@@ -107,4 +108,5 @@ So you'll see imperfect examples of what answers would be, and that's precisely 
 So with that, hopefully, you've captured all these general tips, you'll keep them in mind as you prepare for your behavioral interviews and as you actually go and take them.
 I'll say one final thing for real is that these behavioral interviews should not be taken as something too stressful.
 In fact, if you prepare, if you go through the questions that we give you here, the behavioral interview should almost be like a fun thing to do, something where you get to kind of relax a little bit from the technical stuff.
-Just make sure that you have put some preparation into them. With that, I hope that this video is informative and I'll see you in the next one.
+Just make sure that you have put some preparation into them.
+With that, I hope that this video is informative and I'll see you in the next one.

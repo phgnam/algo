@@ -34,7 +34,8 @@ And so, if you've got one engineer on your team who really needs to focus on pro
 If you've got someone who needs to work a little bit more with other teams and other stakeholders, then maybe it might make sense to put them on a part of the project that is gonna involve meetings with back end engineers, or with product managers or UX designers.
 Point is, you have to balance all of these things, right.
 The criticality, if that's a word, of parts of the project, to ensure that stuff gets done, people's personal preferences, just to make sure that people are happy, and also people's career trajectories, and making sure that you're setting them up for success.
-Now, one thing that is sometimes overlooked that's also important to keep in mind is, just, logistical issues. So sometimes you'll have some people who have to travel at one point during the quarter, or some people who, for whatever reason, have a commitment that they can't get out of, and that's gonna prevent them from attending certain meetings, or they won't be able to attend meetings with other engineers who are in a different time zone at a specific time.
+Now, one thing that is sometimes overlooked that's also important to keep in mind is, just, logistical issues.
+So sometimes you'll have some people who have to travel at one point during the quarter, or some people who, for whatever reason, have a commitment that they can't get out of, and that's gonna prevent them from attending certain meetings, or they won't be able to attend meetings with other engineers who are in a different time zone at a specific time.
 When you've got these logistical issues you have to also keep them in mind in the way that you distribute the work.
 If someone is not gonna be able to attend meetings with engineers who are in a completely different time zone late in the day, then maybe somebody else should do the work that is gonna require attending those meetings.
 And so everything that I'm describing here stems from a lot of different experiences, but I'm specifically thinking about one, which was the last project that I worked on when I was a software engineer at Google.
@@ -50,5 +51,6 @@ Assigned it in a way that made most sense.
 So, parts of the project that didn't require too much context in the code base were give to some of these new engineers that were just joining the team.
 Parts of the project that were very critical and that needed a lot of context were given to existing engineers who had already been on the team, even if they were not necessarily gonna benefit from having those technically complex projects under their belt.
 You know, maybe they would've been better given to a more junior engineer who would've really been able to make use of that.
-You know, had to make some trade-offs there. And, yeah, and then finally the time zone thing.
+You know, had to make some trade-offs there.
+And, yeah, and then finally the time zone thing.
 I made sure to assign work in a way that made sense and respected people's preferences with when they like to work, whether or not they're gonna be able to go to meetings with engineers in a different time zone, and so on and so forth.

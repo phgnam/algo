@@ -29,7 +29,8 @@ Just a refactor of this one file that was admittedly kind of poorly written and 
 And I remember this led to a pretty like tense argument.
 It was probably the the tensest argument I've seen in a workplace.
 And, I attribute a lot of it to just the heightened stress levels that we had leading up to this launch.
-But yeah, basically these two other engineers like the one who sent the poor request and the one who reviewed it, just weren't happy with each other, and few comments were exchanged them, and it just wasn't good. Clearly, there was a conflict bottling up and rumbling.
+But yeah, basically these two other engineers like the one who sent the poor request and the one who reviewed it, just weren't happy with each other, and few comments were exchanged them, and it just wasn't good.
+Clearly, there was a conflict bottling up and rumbling.
 And so I'll tell you how I handled that situation.
 But first, I guess I'll tell you how I handle any conflict, at work especially, two things that I think about.
 First of all, when there's a conflict, I always try to assume good intent in the other party, or in this case in the two parties involved in the conflict.
@@ -59,7 +60,8 @@ And they agreed that not merging the pull request, at that time, was better to p
 So suddenly, it turns out they were in agreement and the conflict could have been avoided.
 And so as far as what I did to try to help them, prevent such a conflict from happening in the future, and the lesson that I took from it, 'cause I could have been part of that conflict was just, number one, always go through this mental exercise these two things, assume good intent and try to find common ground.
 And also, the second thing is, try to make sure that your communication is on point, because this conflict that I'm describing here, could have been avoided by just better communication.
-If the engineer who rejected the pull request had just said, "Hey, I agree with this change. "I think this is great.
+If the engineer who rejected the pull request had just said, "Hey, I agree with this change.
+"I think this is great.
 "Thanks so much for doing this.
 "But I really think right now "is not the good time to merge it "into the main repository "because, the code freeze is about to happen "and we have to ensure that there's absolutely no risk "of bug getting into production."
 If he had said that, then, communicated more properly, then the conflict could have maybe been avoided.

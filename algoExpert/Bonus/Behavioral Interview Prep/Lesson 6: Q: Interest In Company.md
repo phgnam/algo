@@ -9,7 +9,7 @@ In this video we're gonna answer the following behavioral interview question.
 Why do you wanna work at, insert company name?
 So, quick pause before I answer this question, I'm gonna answer this question as if I were currently working at Google, and applying to Facebook.
 So the question would be, why do I wanna work at Facebook?
-Of course, you would answer this question, targeting the company that you're interviewing at. 
+Of course, you would answer this question, targeting the company that you're interviewing at.
 So, I wanna work at Facebook for three main reasons.
 The first one is from a purely technical point of view.
 I know that Facebook works with a lot of technologies that really excite me, technologies that I've worked a lot on in personal projects, but that I've never had the opportunity to work on in a production grade engineering environment.

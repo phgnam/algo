@@ -45,7 +45,7 @@ Now, there have been many times on AlgoExpert where we had, disagreement on an e
 If you purely looked at the arguments from both sides, without looking at the bigger picture, one person was clearly right, like, okay, this is, it's better not to do this feature, because from an engineering point of view, it will take far too much time, it'll worsen other parts of the code base.
 We'll have to use another third party service that we really shouldn't be using blah, blah.
 And we agree that that's the better decision.
-But if you take a step back and you realize that our business' livelihood, depends on doing this feature, then will suddenly you know, there's an additional argument for doing that feature. 
+But if you take a step back and you realize that our business' livelihood, depends on doing this feature, then will suddenly you know, there's an additional argument for doing that feature.
 So, got to take a step back sometimes, and realize that your organization or your team might have priorities that trump some of the arguments at the purely engineering level.
 And then finally, the third part of this process or system that that I've got in place.
 And I think this one is again, based on a Amazon leadership principle, or system that that I've got in place.

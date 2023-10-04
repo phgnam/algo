@@ -12,7 +12,8 @@ Depending on that, they might be packaged a little bit differently.
 For example, if you're interviewing at Google for a software engineering position, as of mid 2018 I think, all of their behavioral interviews are called "Googleyness" and Leadership Interviews, and they assess you on your "Googleyness" and Leadership.
 "Googleyness" is a Google specific term that means a lot of things.
 And as you'll see in a second, it's not that much different from what other companies.
-My understanding is that behavioral interviews at Facebook are just called non-technical interviews. So the point is, depending on the company you're interviewing at these behavioral interviews might be labeled differently or might claim to focus on different things.
+My understanding is that behavioral interviews at Facebook are just called non-technical interviews.
+So the point is, depending on the company you're interviewing at these behavioral interviews might be labeled differently or might claim to focus on different things.
 Now, the other thing that makes them difficult to define is that like I hinted at before, they might actually be delivered differently.
 So for example, you might get a full 45 minute interview that is a behavioral interview, or you might even get two full 45 minute interviews that are behavioral interviews.
 Typically that that would only be if you're applying for a managerial position or a leadership position, but you know, for a normal software engineer, I would say it's just one interview, but you might get two or on the flip side, you might actually get a behavioral interview that's only half of another technical interview.
@@ -40,17 +41,21 @@ So the types of questions that you might be asked, we have dozens of them here o
 If you scroll down on the page, you'll see a bunch of them and we give you also sample answers, but there are things like tell me about a challenging project that you worked on and what lessons did you learn from it?
 Or tell me about a time where you were working on a project and there was a low performer on the project.
 How did you handle that situation?
-Or tell me about a time where you had to give or receive tough feedback, these types of questions. And again, there are many of them that you can be asked.
+Or tell me about a time where you had to give or receive tough feedback, these types of questions.
+And again, there are many of them that you can be asked.
 We cover a lot of examples on this page, on the behavioral interviews content on AlgoExpert, and you have to be able to draw from your experiences to answer them.
 Now, one important thing to note here is that depending on the interview, and this might depend on the interviewer, like the person asking you the questions, it might depend on the company, but depending on you know, whatever situation you find yourself in, you might be asked questions that are a little bit more detailed, or you might be asked questions that are less detailed.
 So if you look at the ones that we have here on AlgoExpert, you'll notice that they air on the detailed side.
-Most of our questions are almost divided into three questions. For example, it'll be something like, tell me about a time where you did something, then how did you handle that situation?
+Most of our questions are almost divided into three questions.
+For example, it'll be something like, tell me about a time where you did something, then how did you handle that situation?
 And then what lessons did you learn from it?
 Those are three different questions.
-And that's why the sample answers that I give here on AlgoExpert, are actually relatively long. Some of them are seven, eight, even nine minutes.
+And that's why the sample answers that I give here on AlgoExpert, are actually relatively long.
+Some of them are seven, eight, even nine minutes.
 Those are on the longer end of what I would advise you to take as far as time goes in a normal behavioral interview answer.
 But it's possible that in your interviews, you might be asked the same questions just divided into three parts in a more conversational way.
-So you might be asked, describe briefly a challenging project that you worked on, period. And you would answer for about two or three minutes.
+So you might be asked, describe briefly a challenging project that you worked on, period.
+And you would answer for about two or three minutes.
 Then how did you handle this project?
 Or how did you distribute the work amongst your peers for this project?
 And you answer with three or four minutes, then what are some lessons that you drew from this project?

@@ -4,7 +4,8 @@
 *Imagine you and your team are in the middle of a major project at work, with many moving parts, complicated context, a lot of work, etc.. A new software engineer joins your team, and you're tasked with onboarding them; what do you do?*
 
 
-Hey, everybody. Welcome to AlgoExpert.
+Hey, everybody.
+Welcome to AlgoExpert.
 In this video, we're gonna answer the following behavioral interview question.
 Imagine you and your team  are in the middle of a major project at work with many moving parts, complicated context, a lot of work, et cetera.
 A new software engineer joins your team and you're tasked with onboarding them.

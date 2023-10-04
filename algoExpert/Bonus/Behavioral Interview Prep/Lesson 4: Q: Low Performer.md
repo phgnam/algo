@@ -36,18 +36,22 @@ So it's very important to realize if it's really something that's not their faul
 On the other hand, it might be their fault.
 Maybe it is that they are repeatedly doing the same mistakes despite having presumably learned from their past mistakes, they're repeatedly doing them again and again, or maybe they're not asking for help when they should, maybe you see that they get stuck often and they just don't ask for help, that could be an example.
 Or maybe they are quantifiably, not performing as well as other people.
-Like you can clearly see that they're working in the same code base on similar sized projects and just pumping out far less code in the same period of time as somebody else. But all of these things are nuanced and they're very important to identify.
+Like you can clearly see that they're working in the same code base on similar sized projects and just pumping out far less code in the same period of time as somebody else.
+But all of these things are nuanced and they're very important to identify.
 The last point that I'll make here is that, and another engineer will only send out two pull requests, but those two pull requests will be far more complex and tricky than the 10 other pull requests that the other engineer sent out.
 So all these things very important to study.
 Now, once you've identified that this person really is a low performer and that it is their fault, presumably, then I think the simplest way to try to handle the situation is to help them.
-And I think that can come in the form of constructive feedback, telling them, "Hey, it looks like you might be taking a bit of time on on this particular part of the project. Is there anything that's holding you down?"
+And I think that can come in the form of constructive feedback, telling them, "Hey, it looks like you might be taking a bit of time on on this particular part of the project.
+Is there anything that's holding you down?"
 And maybe asking them what they think about it.
 And then also just offering help.
 I think one of the key things that can help people who are performing not as well as they should be, is to just make yourself available to them to answer questions for them, to unblock them, and oftentimes, you have to push them to ask for help.
 I think that is very common, where people just feel inhibited to ask for help, and it's important to tell them that they can ask for help.
-Now, of course, if they repeatedly don't ask for help, then that's an issue. One thing that I think is important to do when you're dealing with low performance is to...
+Now, of course, if they repeatedly don't ask for help, then that's an issue.
+One thing that I think is important to do when you're dealing with low performance is to...
 At least here I'm talking about a big tech company environment, is to document everything and to document steps that were taken to improve the performance of the perceived low performer.
-And this can really help them, because if it turns out that the project, or their perceived low performance wasn't their fault, it's important to have that documented so that in six months down the line, you don't have a new person who comes in, and just sees, "Oh, well, this person failed to deliver that project six months ago in a certain amount of time. Therefore, they performed poorly." When in fact it was due to an external dependency so important to document that kind of stuff.
+And this can really help them, because if it turns out that the project, or their perceived low performance wasn't their fault, it's important to have that documented so that in six months down the line, you don't have a new person who comes in, and just sees, "Oh, well, this person failed to deliver that project six months ago in a certain amount of time.
+Therefore, they performed poorly." When in fact it was due to an external dependency so important to document that kind of stuff.
 And also, if they were in fact performing poorly, and they took steps to improve on their performance and actually did improve.
 That's a great thing to document and can actually help them a lot in their next performance review for the next promotion and so on and so forth.
 It's always important to document.
